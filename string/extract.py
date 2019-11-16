@@ -1,2 +1,6 @@
+import re
+
+
 def integers(string):
-    return [int(s) for s in string.split() if s.isdigit()]
+    numbers=re.findall(r'\d+', str(string))
+    return list(map(int, numbers))
