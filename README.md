@@ -1,4 +1,4 @@
-# Python Apps Enhancements
+# Python Enhancements
 
 ## Installation
 
